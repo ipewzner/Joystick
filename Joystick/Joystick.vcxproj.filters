@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Util.h" />
+    <ClInclude Include="Joystick.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Joystick.ino" />
+    <None Include="src\arduino folders read me.txt" />
+    <None Include="hex files\Arduino-big-joystick.hex" />
+    <None Include="hex files\Arduino-usbserial.hex" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Joystick.cpp" />
+  </ItemGroup>
+</Project>

@@ -110,6 +110,8 @@
     <DebuggerFlavor>VisualMicroDebugger</DebuggerFlavor>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="hex files\Arduino-big-joystick.hex" />
+    <None Include="hex files\Arduino-usbserial.hex" />
     <None Include="Joystick.ino">
       <FileType>CppCode</FileType>
     </None>
